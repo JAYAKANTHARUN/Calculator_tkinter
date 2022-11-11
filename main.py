@@ -20,6 +20,13 @@ button8=Button(root,text="8",padx=50,pady=30,command=lambda : clicknumber(8))
 button9=Button(root,text="9",padx=50,pady=30,command=lambda : clicknumber(9))
 button0=Button(root,text="0",padx=50,pady=30,command=lambda : clicknumber(0))
 
+buttonadd=Button(root,text="+",padx=50,pady=30,command=clickadd)
+buttonsub=Button(root,text="-",padx=50,pady=30,command=clicksub)
+buttonmult=Button(root,text="x",padx=50,pady=30,command=clickmult)
+buttondiv=Button(root,text="/",padx=50,pady=30,command=clickdiv)
+buttoneq=Button(root,text="=",padx=50,pady=30,command=clickeq)
+buttonclear=Button(root,text="CLEAR",padx=35,pady=30,command=clickclear)
+
 button1.grid(row=1,column=0)
 button2.grid(row=1,column=1)
 button3.grid(row=1,column=2)
@@ -30,5 +37,13 @@ button7.grid(row=3,column=0)
 button8.grid(row=3,column=1)
 button9.grid(row=3,column=2)
 button0.grid(row=4,column=1)
+
+buttonadd.grid(row=5,column=0)
+buttonsub.grid(row=5,column=1)
+buttonmult.grid(row=6,column=0)
+buttondiv.grid(row=6,column=1)
+buttoneq.grid(row=6,column=2)
+buttonclear.grid(row=5,column=2)
+
 
 root.mainloop()
