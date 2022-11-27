@@ -3,5 +3,5 @@
 - This is just an simple Calculator made using python, tkinter module.
 
 - Includes Addition, Subtraction, Multiplication, Division operations
-- ![Screenshot_20221124_223456](https://user-images.githubusercontent.com/94242227/203840108-492c991b-3a51-4b72-a715-fda473c21a8f.png)
+- ![Screenshot_20221127_153313](https://user-images.githubusercontent.com/94242227/204129505-a25a763f-bf54-412f-ae15-d7afd5be35dc.png)
 - Thats all about my project.
